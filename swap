@@ -1,0 +1,17 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner(System.in);
+        System.out.println("Enter to numbers");
+        int a=in.nextInt();
+        int b=in.nextInt();
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("two numbers are "+a+" and "+b);
+	}
+
+}
