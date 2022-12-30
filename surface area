@@ -1,0 +1,14 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class surfacearea {
+	public static void main(String args[]) {
+		Scanner in=new Scanner(System.in);
+		double r,s;
+		System.out.println("Enter the value of radius to calculate the surface area of the sphere");
+		r=in.nextDouble();
+		s=4*3.1415*r*r;
+		System.out.println("Surface area is"+s);
+	}
+		
+
+}
