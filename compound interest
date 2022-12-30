@@ -1,0 +1,21 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class compound_interest {
+
+	public static void main(String[] args) {
+	
+		Scanner in=new Scanner(System.in);
+		int p,r,t;
+		double c;
+		System.out.println("Enter the value of principle sum");
+		p=in.nextInt();
+		System.out.println("Enter the value of rate of interest");
+		r=in.nextInt();
+		System.out.println("Enter the time");
+		t=in.nextInt();
+		r=r/100;
+		c=(Math.pow((1+r),t))*p;
+        System.out.println("compound interest is: "+c);
+	}
+
+}
