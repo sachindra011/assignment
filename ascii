@@ -1,0 +1,18 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class ascii {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		String ch;
+		System.out.println("Enter the character");
+		ch=in.nextLine();
+		char c=ch.charAt(0);
+		int n=c;
+		System.out.println(n);
+		
+
+	}
+
+}
