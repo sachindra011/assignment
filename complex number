@@ -1,0 +1,21 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class complex_number {
+	public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		int a,b,p,q,s,r;
+		System.out.println("Enter the real part of first complex number");
+		a=in.nextInt();
+		System.out.println("Enter the imaginary part of first complex number");
+		b=in.nextInt();
+		System.out.println("Enter the real part of second complex number");
+		p=in.nextInt();
+		System.out.println("Enter the imaginary part of second complex number");
+		q=in.nextInt();
+		r=a+p;
+		s=b+q;
+System.out.println("Sum is: "+r+"+"+s+"i");
+	}
+
+}
