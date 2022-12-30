@@ -1,0 +1,16 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class multiply {
+	public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		float a,b,m;
+		System.out.println("Enter two numbers");
+		a=in.nextInt();
+		b=in.nextInt();
+		m=a*b;
+		System.out.println(m);
+		
+	}
+
+}
