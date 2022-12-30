@@ -1,0 +1,24 @@
+package Hellouniverse;
+import java.util.Scanner;
+public class quadratic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner(System.in);
+		int a,b,c;
+		double x,y;
+		System.out.println("Enter coeffient of x^2");
+		a=in.nextInt();
+		System.out.println("Enter coeffient of x");
+		b=in.nextInt();
+		System.out.println("Enter constatnt term");
+		c=in.nextInt();
+		double d=Math.sqrt(b*b-4*a*c);
+		x=(b+d)/(2*a);
+	    y=(b-d)/(2*a);
+	    System.out.println("First root is: "+x);
+	    System.out.println("First root is: "+y);
+
+	}
+
+}
